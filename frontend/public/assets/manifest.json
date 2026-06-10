@@ -1,0 +1,155 @@
+{
+  "react_icons": [
+    {
+      "brand": "Kodi",
+      "export_name": "SiKodi",
+      "usage": "integration_chip",
+      "reason": "Official icon for Kodi entertainment software integration"
+    },
+    {
+      "brand": "Plex",
+      "export_name": "SiPlex",
+      "usage": "integration_chip",
+      "reason": "Official icon for Plex media server integration"
+    },
+    {
+      "brand": "VLC",
+      "export_name": "SiVideolan",
+      "usage": "integration_chip",
+      "reason": "Official icon for VLC media player integration"
+    }
+  ],
+  "downloaded_assets": [
+    {
+      "id": "hero-home-theater-2",
+      "kind": "photo",
+      "filename": "hero-home-theater-2.jpg",
+      "title": "Premium Home Theater Setup",
+      "description": "High-end cinematic home theater with a large projection screen and moody ambient lighting",
+      "visual_description": "Wide shot of a luxury entertainment center featuring a massive silver projection screen, high-fidelity tower speakers, and warm amber floor lamps. The room has textured wood-paneled walls and a dark, focused atmosphere.",
+      "color_notes": "Dominant warm amber (#D4845C) from lamps contrasting with deep charcoal and wood tones. Excellent for dark mode UIs with gold/amber accents.",
+      "mood": "premium, cinematic, immersive",
+      "placement": "hero",
+      "alternative_placements": ["background_with_overlay"],
+      "recommended": true,
+      "alt_text": "High-end cinematic home theater setup with large screen and moody lighting",
+      "dimensions": "1200x600",
+      "source_page_url": "https://www.pexels.com/photo/home-theatre-projection-screen-and-equipment-13348768/",
+      "download_url": "https://images.pexels.com/photos/13348768/pexels-photo-13348768.jpeg",
+      "provider": "Pexels",
+      "photographer": "Avinash Kumar",
+      "avg_color": "#6C4E43",
+      "verified_via": "read_image",
+      "why_it_was_chosen": "Perfectly matches the 'cinematic dark home theater' request with high-end equipment visibility."
+    },
+    {
+      "id": "hero-home-theater-1",
+      "kind": "photo",
+      "filename": "hero-home-theater-1.jpg",
+      "title": "Minimalist Moody Living Room",
+      "description": "Dimly lit modern living room with a TV and drawn curtains",
+      "visual_description": "Low-light interior shot of a minimalist room with dark curtains. A TV screen is visible in the corner showing static, creating a mysterious and technical mood.",
+      "color_notes": "Very dark palette, near-black (#161817) with subtle grey highlights. Best for extreme dark mode themes.",
+      "mood": "minimal, moody, technical",
+      "placement": "hero",
+      "alternative_placements": ["card_media"],
+      "recommended": false,
+      "alt_text": "Dimly lit room with TV and curtains creating a moody atmosphere",
+      "dimensions": "1200x600",
+      "source_page_url": "https://www.pexels.com/photo/room-with-curtains-drawn-9902128/",
+      "download_url": "https://images.pexels.com/photos/9902128/pexels-photo-9902128.jpeg",
+      "provider": "Pexels",
+      "photographer": "Ron Lach",
+      "avg_color": "#161817",
+      "verified_via": "file_size_check_only",
+      "why_it_was_chosen": "Strong alternative for a more technical/underground feel."
+    },
+    {
+      "id": "card-streaming-1",
+      "kind": "photo",
+      "filename": "card-streaming-1.jpg",
+      "title": "Smart TV App Interface",
+      "description": "TV screen displaying a grid of streaming service apps in a modern home",
+      "visual_description": "A vibrant TV screen filled with colorful app icons (Netflix, Disney+, etc.) set against a dark background with purple and orange ambient light glows. A tablet and smartphone are in the foreground, suggesting a multi-device technical ecosystem.",
+      "color_notes": "Vibrant neon glows in purple (#B026FF) and orange (#FF8C00) against a dark base. High visual energy.",
+      "mood": "modern, technical, vibrant",
+      "placement": "card_media",
+      "alternative_placements": ["hero"],
+      "recommended": true,
+      "alt_text": "Smart TV displaying various streaming applications in a modern high-tech home",
+      "dimensions": "600x400",
+      "source_page_url": "https://www.pexels.com/photo/smart-devices-and-streaming-apps-in-modern-home-setup-29942709/",
+      "download_url": "https://images.pexels.com/photos/29942709/pexels-photo-29942709.jpeg",
+      "provider": "Pexels",
+      "photographer": "Jakub Zerdzicki",
+      "avg_color": "#4A3C4D",
+      "verified_via": "read_image",
+      "why_it_was_chosen": "Excellent representation of the streaming interface request with modern device context."
+    },
+    {
+      "id": "card-streaming-2",
+      "kind": "photo",
+      "filename": "card-streaming-2.jpg",
+      "title": "Netflix Interface Close-up",
+      "description": "Close-up focus on a streaming interface on a smart TV",
+      "visual_description": "Sharp selective focus on a TV screen showing a movie selection interface. The background is softly blurred, emphasizing the technical digital content.",
+      "color_notes": "Neutral grey tones (#99959A) with pops of color from the UI icons. Clean and professional.",
+      "mood": "focused, clean, technical",
+      "placement": "card_media",
+      "alternative_placements": ["table_cell_media"],
+      "recommended": false,
+      "alt_text": "Close-up of a streaming interface on a flat screen TV",
+      "dimensions": "600x400",
+      "source_page_url": "https://www.pexels.com/photo/black-flat-screen-tv-turned-on-showing-man-in-black-shirt-5202917/",
+      "download_url": "https://images.pexels.com/photos/5202917/pexels-photo-5202917.jpeg",
+      "provider": "Pexels",
+      "photographer": "kaboompics.com",
+      "avg_color": "#99959A",
+      "verified_via": "file_size_check_only",
+      "why_it_was_chosen": "Good secondary option focusing purely on the screen content."
+    },
+    {
+      "id": "bg-technical-dark",
+      "kind": "photo",
+      "filename": "bg-technical-dark.jpg",
+      "title": "Technical Light Streams",
+      "description": "Abstract blue light patterns on a dark background representing data/signal flow",
+      "visual_description": "Dynamic streaks of glowing blue and white light dancing across a deep navy background. Represents high-speed data transfer or IPTV signal streams.",
+      "color_notes": "Deep navy (#0F1628) with electric blue (#007FFF) glows. High contrast, perfect for section backgrounds.",
+      "mood": "technical, fast, futuristic",
+      "placement": "background_with_overlay",
+      "alternative_placements": ["hero"],
+      "recommended": true,
+      "alt_text": "Abstract glowing blue technical light patterns on a dark background",
+      "dimensions": "1920x1080",
+      "source_page_url": "https://www.pexels.com/photo/patterns-in-darkness-10653941/",
+      "download_url": "https://images.pexels.com/photos/10653941/pexels-photo-10653941.jpeg",
+      "provider": "Pexels",
+      "photographer": "Aedrian Salazar",
+      "avg_color": "#0F1628",
+      "verified_via": "read_image",
+      "why_it_was_chosen": "Provides a high-quality abstract technical background to support the premium mood."
+    }
+  ],
+  "missing_assets": [],
+  "css_textures": [
+    {
+      "class_name": "bg-dot-grid",
+      "placement": "content_section",
+      "description": "Subtle dot grid pattern for technical sections",
+      "recommended_for": "The configuration and conversion result panels"
+    },
+    {
+      "class_name": "bg-noise",
+      "placement": "global_overlay",
+      "description": "Subtle noise texture for a premium tactile feel",
+      "recommended_for": "Main app container to soften gradients"
+    }
+  ],
+  "usage_notes": [
+    "Prefer SiKodi, SiPlex, and SiVideolan from react-icons for integration logos",
+    "Use hero-home-theater-2.jpg as the primary hero background with a dark overlay",
+    "Use card-streaming-1.jpg for the main features/demo card",
+    "bg-technical-dark.jpg is ideal for the 'How it works' or technical specs section"
+  ]
+}

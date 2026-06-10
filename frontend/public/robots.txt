@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stalker2m3u.hdoiptv.com/sitemap.xml

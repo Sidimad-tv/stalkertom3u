@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 224 71.4% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 263.4 70% 50.4%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 263.4 70% 50.4%;
+    --radius: 0.125rem;
+    --shadow-card: none;
+    --shadow-card-hover: 0 1px 2px 0 rgba(0,0,0,0.05);
+    --font-heading: Inter, system-ui, -apple-system, sans-serif;
+    --font-body: Inter, system-ui, -apple-system, sans-serif;
+    --chart-1: 263.4 70% 50.4%;
+    --chart-2: 330 81% 60%;
+    --chart-3: 199 89% 48%;
+    --chart-4: 47 96% 53%;
+    --chart-5: 160 60% 45%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 5.9% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 5.9% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 263.4 70% 58.4%;
+    --primary-foreground: 263 70% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 263.4 70% 58.4%;
+    --radius: 0.5rem;
+    --shadow-card: 0 0 0 1px rgba(255,255,255,0.08);
+    --shadow-card-hover: 0 0 0 1px rgba(255,255,255,0.14), 0 4px 12px rgba(0,0,0,0.3);
+    --chart-1: 263.4 70% 58.4%;
+    --chart-2: 330 81% 65%;
+    --chart-3: 199 89% 55%;
+    --chart-4: 47 96% 58%;
+    --chart-5: 160 60% 50%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.bg-mesh {
+  background-color: hsl(var(--background));
+  background-image:
+    radial-gradient(at 0% 0%, hsl(var(--foreground) / 0.05) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsl(var(--foreground) / 0.02) 0, transparent 50%);
+}
+
+.bg-gradient-hero {
+  background: linear-gradient(
+    135deg,
+    hsl(var(--primary) / 0.08) 0%,
+    hsl(var(--background)) 50%,
+    hsl(var(--primary) / 0.04) 100%
+  );
+}
+
+.bg-dot-grid {
+  background-color: hsl(var(--background));
+  background-image: radial-gradient(
+    circle,
+    hsl(var(--foreground) / 0.07) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}
+
+.bg-noise {
+  background-color: hsl(var(--background));
+  position: relative;
+}
+.bg-noise::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.bg-grid-fade {
+  background-color: hsl(var(--background));
+  background-image:
+    linear-gradient(hsl(var(--foreground) / 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--foreground) / 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Glass surface utilities — frosted glass effects for dark mode premium surfaces */
+.glass {
+  background: hsl(var(--card) / 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid hsl(var(--foreground) / 0.08);
+}
+
+.glass-heavy {
+  background: hsl(var(--card) / 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid hsl(var(--foreground) / 0.12);
+}
